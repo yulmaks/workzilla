@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -13,6 +17,7 @@ img {
 
 .head ul {
     list-style: none;
+    padding: 10px 0 0 50px;
 }
 .head ul li {
     display: inline;
@@ -20,7 +25,7 @@ img {
 }
 
 
-#tablecon{
+main {
     height: 500px;
     background-color: DodgerBlue;
     display: flex;
